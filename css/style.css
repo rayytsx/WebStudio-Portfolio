@@ -1,0 +1,77 @@
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: black;
+}
+span{
+    color: blue;
+}
+.header_links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px; 
+}
+h1 {
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+    color: black;
+}
+a {
+    text-decoration: none;
+}
+.item {
+    display: flex;
+    justify-content: space-between;
+}
+.promo {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    /* or 136% */
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+}
+.promo {
+    text-decoration: none;
+}
+.feature_items {
+    list-style-type:none
+}
+a:hover {
+    color: blue;
+}
+.card {
+    width: 270px;
+    height: 368px;
+    background: #FFFFFF;
+    /* material shadow v1 */
+    
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    list-style: none;
+}
